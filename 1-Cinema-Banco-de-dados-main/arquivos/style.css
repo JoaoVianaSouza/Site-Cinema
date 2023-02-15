@@ -1,0 +1,122 @@
+body{
+    background-color: black ;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+fieldset{
+    background-color: #585555;
+    border-radius: 5%;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+#topo{
+    display: table;
+    width: 100%;
+    background: #D90404 ;
+    text-align: center;
+}
+
+#logo{
+    height: 172px;
+    width: 316px;
+    position: fixed;
+}
+
+#title{
+    color: whitesmoke;
+}
+
+#botao1{
+    cursor: pointer;
+    font-size:17px;
+    border-color: rgb(95, 7, 7);
+    font-family:Arial;
+    width:200px;
+    height:31px;
+    border-width:2px;
+    color:#fff;
+    border-color:#ffffff;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    box-shadow:inset 0px -11px 0px -24px rgb(95, 7, 7);
+    text-shadow:inset -33px 50px 48px rgb(95, 7, 7);
+    background:linear-gradient(rgb(95, 7, 7), rgb(95, 7, 7));
+}
+
+#botao1:hover {
+    background: linear-gradient(rgb(221, 115, 115), rgba(221, 115, 115));
+}
+
+
+#incluir, #pesquisar, #alteração, #exclusão, #listar, #host{
+    width: 400px;
+    height: 550px;
+}
+
+#in, #alt, #mural {
+    margin-left: 12%;
+    margin-top: 3%;
+    text-align: center;
+    float: left;
+    width: 40%;
+    height: 700px;
+}
+
+#pes, #exc, #criador{
+    margin-right: 2%;
+    margin-top: 3% ;
+    text-align: center;
+    float: right;
+    width: 40%;
+    height: 700px;
+}
+
+#hostform{
+    text-align: justify;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+#linkedin, #discord, #gmail{
+    height: 30px;
+    width: 90px;
+}
+
+#myface{
+    margin-bottom: -30px;
+    height: 290px;
+    width: 320px;
+}
+
+#pInicio{
+    background-color: black;
+    margin-top: 1%;
+    border-radius: -5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.perfil{
+    margin-bottom: -20px;
+}
+
+
+
+
+
+
+

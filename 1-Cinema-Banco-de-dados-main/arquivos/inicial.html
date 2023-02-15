@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+        <title>Zamovie</title>
+    </head>
+    <body>
+        <div id="topo">
+            <img id="logo" src="logomarca..png" alt="logomarca"> 
+        </div>
+        <div id="pInicio">
+            <p> 
+                Em homenagem ao mês Outubro Rosa, campanha de conscientização que tem como objetivo principal alertar as mulheres e a sociedade sobre a importância da prevenção e do diagnóstico precoce do câncer de mama e mais recentemente sobre o câncer de colo do útero, A rede de cinemas mais famosa do Brasil está promovendo uma ação IMPERDÍVEL!! <br> Nesta promoção, os clientes terão direito a assistir a um filme de forma totalmente gratuita. <br> Para participar é fácil, o cliente deverá cadastrar seu ingresso para uma das sessões de filmes disponíveis, após isso, o cliente terá acesso ao seu ingesso, podendo pesquisar, alterar ou até mesmo excluir esse ticket. <br> Todos os clientes que comprarem irão aparecer no nosso mural solidário, este mural servirá para prestigiarmos todos os clientes que estão ajudando nesta causa. <br> *Promoção válida apenas para uma compra por CPF cadastrado
+            </p>
+        </div>
+        <div id="in">
+            <fieldset id="incluir">
+                <h1>Adquirir Ingressos</h1> <br>
+                <img src="cinema.png" alt="Adquirir Ingressos"> <br>
+                <p>Filmes cadastrados: "Estrelas além do tempo", "Adoráveis mulheres", "Que horas ela volta?","Capitã Marvel"</p>
+                <form action="cadastro.php" method="get">
+                    <input type="radio" name="op" value="1" id="i1" checked>Li e Concordo com todos os termos de uso <br>
+                    <input type="hidden" name="entrada" value="1"> <br>
+                    <input type="submit" value="Adquirir Ingresso" id="botao1">
+                </form>
+            </fieldset>
+        </div>
+        <div id="pes">
+            <fieldset id="pesquisar">
+                <h1>Ingressos Cadastrados</h1> <br>
+                <img src="movies.png" alt="Meu Ingresso">
+                <p>Ver meu ingresso</p>
+                <form action="cadastro.php" method="get">
+                    <input type="radio" name="op" value="2" id="i2" checked> Li e Concordo com todos os termos de uso <br>
+                    <input type="hidden" name="entrada" value="1"> <br>
+                    <input type="submit" value="Ver meu ingresso" id="botao1">
+                </form>                                                                                                         
+            </fieldset>
+        </div>
+        <div id="alt">
+            <fieldset id="alteração">
+                <h1>Alterar Ingresso</h1> <br>
+                <img src="popcorn.png" alt="Alterar Ingresso">
+                <p>Alterar meu ingresso</p>
+                <form action="cadastro.php" method="get">
+                    <input type="radio" name="op" value="5" id="i5" checked> Li e Concordo com todos os termos de uso <br>
+                    <input type="hidden" name="entrada" value="1"> <br>
+                    <input type="submit" value="Alterar meu ingresso" id="botao1">
+                </form>
+            </fieldset>
+        </div>
+        <div id="exc">
+            <fieldset id="exclusão">
+                <h1>Excluir Ingresso</h1> <br>
+                <img src="delete.png" alt="Deletar ingresso">
+                <p>Excluir ingresso</p>
+                <form action="cadastro.php" method="get">
+                    <input type="radio" name="op" value="4" id="i4" checked> Li e Concordo com todos os termos de uso <br>
+                    <input type="hidden" name="entrada" value="1"> <br>
+                    <input type="submit" value="Excluir ingresso" id="botao1"> 
+                </form>
+            </fieldset>
+        </div>
+        <div id="mural">
+            <fieldset id="listar">
+                <h1>Mural Solidário</h1> <br>
+                <img src="list.png" alt="Listar">
+                <p>Mural Solidário</p>
+                <form action="cadastro.php" method="get">
+                    <input type="radio" name="op" value="3" id="i3" checked> Li e Concordo com todos os termos de uso <br>
+                    <input type="hidden" name="entrada" value="1"> <br>
+                    <input type="submit" value="Mural solidário" id="botao1">
+                </form> 
+            </fieldset>
+        </div>
+        <div id="criador">
+            <fieldset id="host">
+                <h1>Feito Por</h1> 
+                <div class="perfil">
+                    <a target="_blank" href="https://github.com/JoaoZalli"><img id="myface" src="Perfil (2).jpg" alt="foto do criador"></a>
+                </div>
+                <ul id="hostform">
+                    <li> João Pedro Gonçalves Viana de Souza</li>
+                    <li> Nascido dia 24/08/2005</li>
+                    <li> Aluno do 4° perído em informática no IFRJ (2022)</li>
+                    <li> Clique na foto acima para ser enviado ao meu GitHub e ter acesso á outros projetos meus.</li>
+                    <li> Abaixo estão algumas formas de entrar em contato, clique e seja direcionado à cada uma das páginas.</li>
+                </ul>
+                <div>
+                    <a href = "mailto:joaopedro.viana.gsouza@gmail.com"><img id="gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+                    <a href="https://discord.com/channels/@Zalli#3575" target="_blank"><img id="discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+                    <a href="https://www.linkedin.com/in/joao-pedro-gon%C3%A7alves-viana-de-souza-a33a84242/" target="_blank"><img id="linkedin" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+                </div>
+            </fieldset>
+        </div>
+    </body> 
+</html>

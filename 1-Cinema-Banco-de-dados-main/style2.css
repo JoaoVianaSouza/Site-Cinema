@@ -1,0 +1,319 @@
+form{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color:  rgb(95, 7, 7);
+}
+
+th{
+    color: black;
+    background-color: whitesmoke;
+    height: 40px;
+}
+
+tr{
+    text-align: center;
+}
+
+#qr{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-left: 100px;
+}
+
+.error{
+    color: #ffffff;
+}
+
+.text{
+    gap: 5px;
+    position: relative;
+    left: 70px;
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 40px;
+    width: 460px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.number{
+    gap: 5px;
+    position: relative;
+    left: 76px;
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 40px;
+    width: 460px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.number1{
+    gap: 5px;
+    position: relative;
+    left: 76px;
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 40px;
+    width: 460px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    margin-right: 83px;
+}
+
+.date{
+    gap: 5px;
+    position: relative;
+    left: 25px;
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 40px;
+    width: 460px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.form_radio1{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.radio1{
+    margin-left: 65px;
+}
+
+.form_radio2{
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.radio2{
+    margin-left: 60px;
+}
+
+.radiox{
+    margin-left: 85px;
+}
+
+.form_radio3{
+    margin-top: 30px;
+    margin-left: -115px;
+}
+
+.radio3{
+    margin-left: 54px;
+}
+
+.form_radio4{
+    margin-top: 30px;
+    margin-left: -119px;
+}
+
+.radio4{
+    margin-left: 20px;
+}
+
+.button{
+    cursor: pointer;
+    font-size:17px;
+    border-color: rgb(95, 7, 7);
+    font-family:Arial;
+    width:200px;
+    height:31px;
+    border-width:2px;
+    color:#fff;
+    border-color:#ffffff;
+    box-shadow:inset 0px -11px 0px -24px rgb(95, 7, 7);
+    text-shadow:inset -33px 50px 48pxrgb(95, 7, 7);
+    background:linear-gradient(rgb(95, 7, 7), rgb(95, 7, 7));
+}
+
+.button:hover{
+    background: linear-gradient(rgb(221, 115, 115), rgba(221, 115, 115));
+}
+
+.main{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 50px     
+}
+.main2{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 50px     
+}
+
+.border{
+    border-color: white;
+    display: block;
+    border: 2px solid;
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 30px;
+    background-color: #585555;
+}
+
+.tabela1{
+    color: white;
+    background-color:  rgb(95, 7, 7);
+
+}
+
+.form_solidário{
+    margin-top: 70px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #585555;
+}
+
+.mural{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 50px  
+    
+}
+
+.buttonX{
+    cursor: pointer;
+    font-size:17px;
+    border-color: rgb(95, 7, 7);
+    font-family:Arial;
+    width:200px;
+    height:31px;
+    border-width:2px;
+    color:#fff;
+    border-color:#ffffff;
+    box-shadow:inset 0px -11px 0px -24px rgb(95, 7, 7);
+    text-shadow:inset -33px 50px 48px rgb(95, 7, 7);
+    background:linear-gradient(rgb(95, 7, 7), rgb(95, 7, 7));
+    margin-left: 45%;  
+    margin-top: 3%; 
+}
+
+.buttonX:hover{
+    background: linear-gradient(rgb(221, 115, 115), rgba(221, 115, 115));
+}
+
+.tabela1{
+    margin-left: -1px;
+    margin-right: 30%;
+    margin-top: 2%;
+    border-color: black;
+    width: 100%;
+    height: 20%;
+}
+
+.sex{
+    text-align: center;
+    width: 15%;
+}
+
+.border1{
+    margin-top: 5% ;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:rgb(95, 7, 7);
+    text-align: justify;
+    border-radius: 30px;
+}
+
+.border2{
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 85%;
+    background-color: #585555;
+    border-radius: 30px;
+}
+
+.ing{
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 15%;
+}
+
+.buttonW{
+    cursor: pointer;
+    font-size:17px;
+    border-color: rgb(95, 7, 7);
+    font-family:Arial;
+    width:200px;
+    height:31px;
+    border-width:2px;
+    color:#fff;
+    border-color:#ffffff;
+    box-shadow:inset 0px -11px 0px -24px rgb(95, 7, 7);
+    text-shadow:inset -33px 50px 48pxrgb(95, 7, 7);
+    background:linear-gradient(rgb(95, 7, 7), rgb(95, 7, 7));
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.buttonw:hover{
+    background: linear-gradient(rgb(221, 115, 115), rgba(221, 115, 115));
+}
+
+.altleg{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    border-color: white;
+}
+
+.altere{
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.main3{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 50px    
+}
+.main4{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 50px    
+}
+
+.border3{
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 90%;
+    background-color: #585555;
+    border-radius: 30px;
+}
+
+.legendMural{
+    color: white;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.room{
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 43%;
+}
+
+
